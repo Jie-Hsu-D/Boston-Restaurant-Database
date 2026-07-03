@@ -222,7 +222,6 @@ db.reviews.find({ tags: { $in: ["vegetarian", "family-friendly"] } })
 
 - [ ] Add REST API layer (FastAPI)
 - [ ] Implement full-text search on reviews (Elasticsearch)
-- [ ] Build recommendation engine leveraging Neo4j graph
 - [ ] Add data pipeline for real-time review ingestion (Kafka)
 - [ ] Deploy on AWS (RDS + DocumentDB + Neptune)
 
