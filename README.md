@@ -136,8 +136,8 @@ Boston-Restaurant-Database/
 ### Relationships
 
 - User → writes → Review → about → Restaurant
-- User → follows → User (Neo4j social graph)
-- User → recommends → Restaurant (Neo4j graph)
+- User → follows → User
+- User → recommends → Restaurant
 
 ---
 
@@ -148,7 +148,6 @@ Boston-Restaurant-Database/
 - Python 3.10+
 - MySQL 8.0+
 - MongoDB 6.0+
-- Neo4j 5.x
 
 ### Installation
 
