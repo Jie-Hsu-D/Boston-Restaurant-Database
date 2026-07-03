@@ -1,0 +1,6 @@
+flask
+mysql-connector-python
+pymongo
+pandas
+matplotlib
+python-dotenv
