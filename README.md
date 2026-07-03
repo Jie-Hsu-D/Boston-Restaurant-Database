@@ -89,26 +89,25 @@ Boston-Restaurant-Database/
 │   ├── #_Sample_Query_Results.md
 │   └── README.md
 │
-├── src/                        
-│   ├── project_applicatiopn_web.py
-│   ├── implementation in python(sql).py
-│   ├── analysis_top_followers.py
-│   ├── analysis_top_priced.py
-│   ├── analysis_top_rated.py 
-│   └── Table_description.py           
-│
-└── notebooks/                   
-    └── analysis.ipynb
+└── src/                        
+    ├── project_applicatiopn_web.py
+    ├── implementation in python(sql).py
+    ├── analysis_top_followers.py
+    ├── analysis_top_priced.py
+    ├── analysis_top_rated.py 
+    └── Table_description.py           
+
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Databases:** MySQL 8.0, MongoDB 6.0, Neo4j 5.x
+- **Web Framework:** Flask
+- **Databases:** MySQL 8.0, MongoDB 6.0
 - **Language:** Python 3.10+
-- **Libraries:** mysql-connector-python, pymongo, neo4j (Python driver), pandas
-- **Modeling Tools:** MySQL Workbench (EER), Draw.io (UML)
+- **Libraries:** mysql-connector-python, pymongo, pandas, matplotlib, python-dotenv
+- **Modeling Tools:** Draw.io (EER diagrams, UML)
 
 ---
 
@@ -136,8 +135,8 @@ Boston-Restaurant-Database/
 ### Relationships
 
 - User → writes → Review → about → Restaurant
-- User → follows → User (Neo4j social graph)
-- User → recommends → Restaurant (Neo4j graph)
+- User → follows → User
+- User → recommends → Restaurant
 
 ---
 
@@ -148,7 +147,6 @@ Boston-Restaurant-Database/
 - Python 3.10+
 - MySQL 8.0+
 - MongoDB 6.0+
-- Neo4j 5.x
 
 ### Installation
 
@@ -225,7 +223,6 @@ db.reviews.find({ tags: { $in: ["vegetarian", "family-friendly"] } })
 
 - [ ] Add REST API layer (FastAPI)
 - [ ] Implement full-text search on reviews (Elasticsearch)
-- [ ] Build recommendation engine leveraging Neo4j graph
 - [ ] Add data pipeline for real-time review ingestion (Kafka)
 - [ ] Deploy on AWS (RDS + DocumentDB + Neptune)
 
