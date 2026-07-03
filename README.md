@@ -89,16 +89,14 @@ Boston-Restaurant-Database/
 │   ├── #_Sample_Query_Results.md
 │   └── README.md
 │
-├── src/                        
-│   ├── project_applicatiopn_web.py
-│   ├── implementation in python(sql).py
-│   ├── analysis_top_followers.py
-│   ├── analysis_top_priced.py
-│   ├── analysis_top_rated.py 
-│   └── Table_description.py           
-│
-└── notebooks/                   
-    └── analysis.ipynb
+└── src/                        
+    ├── project_applicatiopn_web.py
+    ├── implementation in python(sql).py
+    ├── analysis_top_followers.py
+    ├── analysis_top_priced.py
+    ├── analysis_top_rated.py 
+    └── Table_description.py           
+
 ```
 
 ---
