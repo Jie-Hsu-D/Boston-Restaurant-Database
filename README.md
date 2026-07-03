@@ -103,10 +103,11 @@ Boston-Restaurant-Database/
 
 ## 🛠️ Tech Stack
 
-- **Databases:** MySQL 8.0, MongoDB 6.0, Neo4j 5.x
+- **Web Framework:** Flask
+- **Databases:** MySQL 8.0, MongoDB 6.0
 - **Language:** Python 3.10+
-- **Libraries:** mysql-connector-python, pymongo, neo4j (Python driver), pandas
-- **Modeling Tools:** MySQL Workbench (EER), Draw.io (UML)
+- **Libraries:** mysql-connector-python, pymongo, pandas, matplotlib, python-dotenv
+- **Modeling Tools:** Draw.io (EER diagrams, UML)
 
 ---
 
